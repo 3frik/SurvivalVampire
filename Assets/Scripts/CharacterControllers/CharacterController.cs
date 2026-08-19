@@ -157,7 +157,10 @@ public class CharacterController : MonoBehaviour
         }
 
         //Regenerate
-        HP += regeneration * Time.deltaTime;
+        if(HP < maxHP)
+        {
+            HP + = regeneration * Time.deltaTime;
+        }
     }
 
     internal void TakeXP(int amount)
@@ -175,9 +178,9 @@ public class CharacterController : MonoBehaviour
         Debug.Log("LEVEL UP!!!");
         level++;
         XP = 0;
-        HP = maxHP;
         Spawner.instance.RiseTheStakes();
         LevelUpController.instance.Pause();
+        HP = maxHP;
         HPViewController.instance.SetHealth(HP / (float)maxHP);
     }
 
