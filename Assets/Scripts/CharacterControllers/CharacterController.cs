@@ -91,10 +91,6 @@ public class CharacterController : MonoBehaviour
         powers.Add(new Power("Cloud of ruin", "Summon clouds of toxic fumes around you", "Increase the damage and size of your cloud", PowerCloud,0));
         powers.Add(new Power("Health", "You not dead, you?", "Increase you maximum health", PowerHealth,0));
 
-        Debug.Log("My shouting device is " + shoutSpawer.name);
-        Debug.Log("Has it a shout controller? "+ (shoutSpawer.GetComponent<ShoutController>()!=null?"yes":"no"));
-        Debug.Log("And it itself has a " + shoutSpawer.GetComponent<ShoutController>().shoutDamage);
-
         //Reset stats of powers to start values
         throwPreFab.GetComponent<DamageEnemies>().damage = 10;
         throwPreFab.GetComponent<Throwable>().speed = 5f;
@@ -110,7 +106,7 @@ public class CharacterController : MonoBehaviour
         shoutSpawer.GetComponent<ShoutController>().shoutTime = 1f;
     }
 
-    // Update is called once per frame
+    // Update is called once per frame, so I put here all that has to be refreshed by frame, that means, UI.
     void Update()
     {
         //Attacking
@@ -144,12 +140,12 @@ public class CharacterController : MonoBehaviour
 
         transform.position = position;
 
+        //Face right direction by flipping (scaling) the sprite
         animator.SetFloat("MoveX", move.x);
 
         if (move.x < 0)
         {
             transform.localScale = new Vector3(-0.1f, 0.1f, 1);
-
         }
         else if (move.x > 0)
         {
@@ -159,7 +155,7 @@ public class CharacterController : MonoBehaviour
         //Regenerate
         if(HP < maxHP)
         {
-            HP + = regeneration * Time.deltaTime;
+            HP += regeneration * Time.deltaTime;
         }
     }
 
@@ -222,11 +218,13 @@ public class CharacterController : MonoBehaviour
     {
         Debug.Log("Shout Powering Up from " + powers[1].level);
         
+        //If the powers starts now
         if (powers[1].level == 0)
         {
             Instantiate(shoutSpawer,Vector3.right,Quaternion.identity);
             powers[1].level++;
         }
+        //If the power has to be upgraded
         else
         {
             shoutSpawer.GetComponent<ShoutController>().shoutDamage += 10;

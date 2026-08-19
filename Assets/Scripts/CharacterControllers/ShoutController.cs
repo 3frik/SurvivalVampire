@@ -12,14 +12,14 @@ public class ShoutController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        Debug.Log("Shout controller has been created");
+        Debug.Log("ShoutController created by: " + new System.Diagnostics.StackTrace());
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         reloadingTimer += Time.deltaTime;
-        Debug.Log("Holdign breath... " + reloadingTimer + "/" + reloadTime);
         if (reloadingTimer > reloadTime) {
             reloadingTimer = 0f;
             Debug.Log("ScreamAndShout!!!!");

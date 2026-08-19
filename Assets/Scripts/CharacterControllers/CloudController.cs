@@ -11,7 +11,8 @@ public class CloudController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-    
+        Debug.Log("Cloud Controller ahs been created");
+        Debug.Log("Cloud Controller created by: " + new System.Diagnostics.StackTrace());
     }
 
     // Update is called once per frame
@@ -28,8 +29,4 @@ public class CloudController : MonoBehaviour
         }
     }
 
-    internal void PowerUp()
-    {
-        cloudPower *= 2;
-    }
 }

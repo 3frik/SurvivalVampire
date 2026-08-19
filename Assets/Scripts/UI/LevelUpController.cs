@@ -6,8 +6,11 @@ public class LevelUpController : MonoBehaviour
 {
     UIDocument uiDocument;
     internal static LevelUpController instance;
+    Button Reward1Button;
     Action Button1Action = null;
+    Button Reward2Button;
     Action Button2Action = null;
+    Button Reward3Button;
     Action Button3Action = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,6 +19,12 @@ public class LevelUpController : MonoBehaviour
         instance = this;
         uiDocument = GetComponent<UIDocument>();
         uiDocument.rootVisualElement.style.display = DisplayStyle.None;
+        Reward1Button = uiDocument.rootVisualElement.Q<Button>("Reward1");
+        Reward1Button.clicked += UnPause;
+        Reward2Button = uiDocument.rootVisualElement.Q<Button>("Reward2");
+        Reward2Button.clicked += UnPause;
+        Reward3Button = uiDocument.rootVisualElement.Q<Button>("Reward3");
+        Reward3Button.clicked += UnPause;
     }
 
     // Update is called once per frame
@@ -27,7 +36,6 @@ public class LevelUpController : MonoBehaviour
 
     internal void Pause()
     {
-        Debug.Log("Paused");
         uiDocument.rootVisualElement.style.display = DisplayStyle.Flex;
         Time.timeScale = 0.0f;
 
@@ -36,12 +44,9 @@ public class LevelUpController : MonoBehaviour
         int upgrade1Index = UnityEngine.Random.Range(0, CharacterController.instance.powers.Count - 2);
         int upgrade2Index = UnityEngine.Random.Range(upgrade1Index + 1, CharacterController.instance.powers.Count - 1);
         int upgrade3Index = UnityEngine.Random.Range(upgrade2Index + 1, CharacterController.instance.powers.Count);
-        Debug.Log("Indexed: "+upgrade1Index+" , "+upgrade2Index+" and "+upgrade3Index);
-
-        Debug.Log("making buttons");
+        Debug.Log("Paused. Indexed: "+upgrade1Index+" , "+upgrade2Index+" and "+upgrade3Index);
 
         //Edit the three buttons so they show those powers
-        Button Reward1Button = uiDocument.rootVisualElement.Q<Button>("Reward1");
         Reward1Button.Q<Label>("Label").text=CharacterController.instance.powers[upgrade1Index].name;
         Reward1Button.Q<Image>("Image").sprite= CharacterController.instance.powers[upgrade1Index].sprite;
         Reward1Button.clicked -= Button1Action;
@@ -57,11 +62,8 @@ public class LevelUpController : MonoBehaviour
         }
         //Add also functionality
         Reward1Button.clicked += Button1Action;
-        Reward1Button.clicked += UnPause;
-        Debug.Log("Button1 ok");
 
         //Now button 2
-        Button Reward2Button = uiDocument.rootVisualElement.Q<Button>("Reward2");
         Reward2Button.Q<Label>("Label").text = CharacterController.instance.powers[upgrade2Index].name;
         Reward2Button.Q<Image>("Image").sprite = CharacterController.instance.powers[upgrade2Index].sprite;
         Reward2Button.clicked -= Button2Action;
@@ -75,10 +77,8 @@ public class LevelUpController : MonoBehaviour
             Reward2Button.Q<Label>("Description").text = CharacterController.instance.powers[upgrade2Index].presentation;
         }
         Reward2Button.clicked += Button2Action;
-        Reward2Button.clicked += UnPause;
-
+        
         //And now button 3
-        Button Reward3Button = uiDocument.rootVisualElement.Q<Button>("Reward3");
         Reward3Button.Q<Label>("Label").text = CharacterController.instance.powers[upgrade3Index].name;
         Reward3Button.Q<Image>("Image").sprite = CharacterController.instance.powers[upgrade3Index].sprite;
         Reward3Button.clicked -= Button3Action;
@@ -92,7 +92,6 @@ public class LevelUpController : MonoBehaviour
             Reward3Button.Q<Label>("Description").text = CharacterController.instance.powers[upgrade3Index].presentation;
         }
         Reward3Button.clicked += Button3Action;
-        Reward3Button.clicked += UnPause;
         Debug.Log("All buttons ok");
     }
 }
