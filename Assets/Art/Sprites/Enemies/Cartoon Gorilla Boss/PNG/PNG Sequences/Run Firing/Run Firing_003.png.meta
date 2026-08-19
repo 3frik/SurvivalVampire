@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 145e0713bb7960a428c381b79b1e5113
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1396385694280660281
+    second: Run Firing_003_0
+  - first:
+      213: -633284057345705239
+    second: Run Firing_003_1
+  - first:
+      213: -535189861822061767
+    second: Run Firing_003_2
+  - first:
+      213: -8775322684614449814
+    second: Run Firing_003_3
+  - first:
+      213: 3545190472408604502
+    second: Run Firing_003_4
+  - first:
+      213: -9075187389651203537
+    second: Run Firing_003_5
+  - first:
+      213: -5936271082730884268
+    second: Run Firing_003_6
+  - first:
+      213: -1277372702688056911
+    second: Run Firing_003_7
+  - first:
+      213: -8799690203217546155
+    second: Run Firing_003_8
+  - first:
+      213: -455382279763406878
+    second: Run Firing_003_9
+  - first:
+      213: 4492448054827425292
+    second: Run Firing_003_10
+  - first:
+      213: 6218217845988154147
+    second: Run Firing_003_11
+  - first:
+      213: -7387212384891344164
+    second: Run Firing_003_12
+  - first:
+      213: 1883502782838035505
+    second: Run Firing_003_13
+  - first:
+      213: -2951865426628155497
+    second: Run Firing_003_14
+  - first:
+      213: -5708396147081560271
+    second: Run Firing_003_15
+  - first:
+      213: -8267227438302203669
+    second: Run Firing_003_16
+  - first:
+      213: 2106991695440910765
+    second: Run Firing_003_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run Firing_003_0
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 78
+        width: 493
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cac6f20c9a0f9ce0800000000000000
+      internalID: -1396385694280660281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_1
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 352
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eabdff418f1637f0800000000000000
+      internalID: -633284057345705239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_2
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 371
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933a4bef7af9298f0800000000000000
+      internalID: -535189861822061767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_3
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 349
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65e022138ac73680800000000000000
+      internalID: -8775322684614449814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_4
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 342
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f930193fb033130800000000000000
+      internalID: 3545190472408604502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_5
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 359
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a4cb9c6257e0280800000000000000
+      internalID: -9075187389651203537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_6
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 305
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453f667e6e02e9da0800000000000000
+      internalID: -5936271082730884268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_7
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 316
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b96f727b4cd54ee0800000000000000
+      internalID: -1277372702688056911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 287
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554bbb7026831e580800000000000000
+      internalID: -8799690203217546155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_9
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 286
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efc1b1ba382ea9f0800000000000000
+      internalID: -455382279763406878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_10
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 273
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e12ef24b1685e30800000000000000
+      internalID: 4492448054827425292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_11
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 288
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b5e167f2c8b4650800000000000000
+      internalID: 6218217845988154147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_12
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 258
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda6f2e99795b7990800000000000000
+      internalID: -7387212384891344164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_13
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 248
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13455804dcb832a10800000000000000
+      internalID: 1883502782838035505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_14
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 231
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797621db80ed807d0800000000000000
+      internalID: -2951865426628155497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_15
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 209
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fbef7d2f3b7c0b0800000000000000
+      internalID: -5708396147081560271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_16
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 223
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be072ae4278e44d80800000000000000
+      internalID: -8267227438302203669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Firing_003_17
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 196
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9147f98c98d3d10800000000000000
+      internalID: 2106991695440910765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Run Firing_003_0: -1396385694280660281
+      Run Firing_003_1: -633284057345705239
+      Run Firing_003_10: 4492448054827425292
+      Run Firing_003_11: 6218217845988154147
+      Run Firing_003_12: -7387212384891344164
+      Run Firing_003_13: 1883502782838035505
+      Run Firing_003_14: -2951865426628155497
+      Run Firing_003_15: -5708396147081560271
+      Run Firing_003_16: -8267227438302203669
+      Run Firing_003_17: 2106991695440910765
+      Run Firing_003_2: -535189861822061767
+      Run Firing_003_3: -8775322684614449814
+      Run Firing_003_4: 3545190472408604502
+      Run Firing_003_5: -9075187389651203537
+      Run Firing_003_6: -5936271082730884268
+      Run Firing_003_7: -1277372702688056911
+      Run Firing_003_8: -8799690203217546155
+      Run Firing_003_9: -455382279763406878
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

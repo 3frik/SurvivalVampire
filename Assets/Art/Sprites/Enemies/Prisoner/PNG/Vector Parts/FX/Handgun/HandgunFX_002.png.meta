@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: b0b5b83f14c0c3441813b9687a4ee628
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7736488256185875807
+    second: HandgunFX_002_0
+  - first:
+      213: -6093810843677935286
+    second: HandgunFX_002_1
+  - first:
+      213: 4263788642275171856
+    second: HandgunFX_002_2
+  - first:
+      213: -3204237125222357417
+    second: HandgunFX_002_3
+  - first:
+      213: -190740526706634292
+    second: HandgunFX_002_4
+  - first:
+      213: -2777793599745957833
+    second: HandgunFX_002_5
+  - first:
+      213: 7775058881467166561
+    second: HandgunFX_002_6
+  - first:
+      213: 4458739804725605238
+    second: HandgunFX_002_7
+  - first:
+      213: 807352273227094963
+    second: HandgunFX_002_8
+  - first:
+      213: 8252346264057301295
+    second: HandgunFX_002_9
+  - first:
+      213: -6859048183318808960
+    second: HandgunFX_002_10
+  - first:
+      213: -6391728576725871657
+    second: HandgunFX_002_11
+  - first:
+      213: -8573849163336581851
+    second: HandgunFX_002_12
+  - first:
+      213: 9144329152116762571
+    second: HandgunFX_002_13
+  - first:
+      213: 8941996622841127635
+    second: HandgunFX_002_14
+  - first:
+      213: 7660636872963804608
+    second: HandgunFX_002_15
+  - first:
+      213: 7463397847475830313
+    second: HandgunFX_002_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HandgunFX_002_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 173
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5db0fe44178d5b60800000000000000
+      internalID: 7736488256185875807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 192
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a493726f25f6e6ba0800000000000000
+      internalID: -6093810843677935286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 170
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e182cfd250c2b30800000000000000
+      internalID: 4263788642275171856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 163
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756a007bf434883d0800000000000000
+      internalID: -3204237125222357417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 180
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc15165608a5a5df0800000000000000
+      internalID: -190740526706634292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 126
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730e9cb307b4379d0800000000000000
+      internalID: -2777793599745957833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 137
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fa891dbde86eb60800000000000000
+      internalID: 7775058881467166561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 108
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673709e9a30a0ed30800000000000000
+      internalID: 4458739804725605238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 107
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb1e4e6d9a443b00800000000000000
+      internalID: 807352273227094963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 94
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2948a05439368270800000000000000
+      internalID: 8252346264057301295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 109
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0867eff9404cfc0a0800000000000000
+      internalID: -6859048183318808960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 79
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d39a8b69b40c47a0800000000000000
+      internalID: -6391728576725871657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 69
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dfa85bc91930980800000000000000
+      internalID: -8573849163336581851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 52
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc72b254aee27ee70800000000000000
+      internalID: 9144329152116762571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 30
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2203f3d8a581c70800000000000000
+      internalID: 8941996622841127635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 44
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd444ee5ac005a60800000000000000
+      internalID: 7660636872963804608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HandgunFX_002_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 17
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e363cacc0539760800000000000000
+      internalID: 7463397847475830313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HandgunFX_002_0: 7736488256185875807
+      HandgunFX_002_1: -6093810843677935286
+      HandgunFX_002_10: -6859048183318808960
+      HandgunFX_002_11: -6391728576725871657
+      HandgunFX_002_12: -8573849163336581851
+      HandgunFX_002_13: 9144329152116762571
+      HandgunFX_002_14: 8941996622841127635
+      HandgunFX_002_15: 7660636872963804608
+      HandgunFX_002_16: 7463397847475830313
+      HandgunFX_002_2: 4263788642275171856
+      HandgunFX_002_3: -3204237125222357417
+      HandgunFX_002_4: -190740526706634292
+      HandgunFX_002_5: -2777793599745957833
+      HandgunFX_002_6: 7775058881467166561
+      HandgunFX_002_7: 4458739804725605238
+      HandgunFX_002_8: 807352273227094963
+      HandgunFX_002_9: 8252346264057301295
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

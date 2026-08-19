@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 90abf10378776c54198bf7f5a3be199a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -641545939413144165
+    second: Top-Down Dungeon Platformer_0
+  - first:
+      213: -9185685831076853913
+    second: Top-Down Dungeon Platformer_1
+  - first:
+      213: -5338420110819338936
+    second: Top-Down Dungeon Platformer_2
+  - first:
+      213: 258918450570235774
+    second: Top-Down Dungeon Platformer_3
+  - first:
+      213: 8533050100891933978
+    second: Top-Down Dungeon Platformer_4
+  - first:
+      213: 6855780889279755287
+    second: Top-Down Dungeon Platformer_5
+  - first:
+      213: -925960754048837393
+    second: Top-Down Dungeon Platformer_6
+  - first:
+      213: -4964933342148279278
+    second: Top-Down Dungeon Platformer_7
+  - first:
+      213: 2123887755381853356
+    second: Top-Down Dungeon Platformer_8
+  - first:
+      213: 765953826376474976
+    second: Top-Down Dungeon Platformer_9
+  - first:
+      213: 3788323189350125584
+    second: Top-Down Dungeon Platformer_10
+  - first:
+      213: 5564952017125548724
+    second: Top-Down Dungeon Platformer_11
+  - first:
+      213: -1408078293448363773
+    second: Top-Down Dungeon Platformer_12
+  - first:
+      213: -6431433740911744244
+    second: Top-Down Dungeon Platformer_13
+  - first:
+      213: 5049058586937901037
+    second: Top-Down Dungeon Platformer_14
+  - first:
+      213: -6941654469277557960
+    second: Top-Down Dungeon Platformer_15
+  - first:
+      213: -1080052784670940789
+    second: Top-Down Dungeon Platformer_16
+  - first:
+      213: -191051747709037053
+    second: Top-Down Dungeon Platformer_17
+  - first:
+      213: 2036585157677739276
+    second: Top-Down Dungeon Platformer_18
+  - first:
+      213: -2430423724838002003
+    second: Top-Down Dungeon Platformer_19
+  - first:
+      213: -7291873899367932729
+    second: Top-Down Dungeon Platformer_20
+  - first:
+      213: -3121172735412257735
+    second: Top-Down Dungeon Platformer_21
+  - first:
+      213: 4553464977903074593
+    second: Top-Down Dungeon Platformer_22
+  - first:
+      213: -5361251234194369881
+    second: Top-Down Dungeon Platformer_23
+  - first:
+      213: 2850075418283746558
+    second: Top-Down Dungeon Platformer_24
+  - first:
+      213: -5794445845591204607
+    second: Top-Down Dungeon Platformer_25
+  - first:
+      213: -4370928678473638441
+    second: Top-Down Dungeon Platformer_26
+  - first:
+      213: 4987133881899512875
+    second: Top-Down Dungeon Platformer_27
+  - first:
+      213: 3715838342551580816
+    second: Top-Down Dungeon Platformer_28
+  - first:
+      213: -4985402322877586785
+    second: Top-Down Dungeon Platformer_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2305
+        height: 1792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d6f2efd55c817f0800000000000000
+      internalID: -641545939413144165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_1
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1561
+        width: 248
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767435c8763e58080800000000000000
+      internalID: -9185685831076853913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_2
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1561
+        width: 248
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845dfc0813f1ae5b0800000000000000
+      internalID: -5338420110819338936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_3
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 1539
+        width: 170
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f880085fcd79300800000000000000
+      internalID: 258918450570235774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_4
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 1297
+        width: 170
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d56425bdb7b6670800000000000000
+      internalID: 8533050100891933978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_5
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1297
+        width: 170
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7147e633560a42f50800000000000000
+      internalID: 6855780889279755287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_6
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 1472
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe857f2a9935623f0800000000000000
+      internalID: -925960754048837393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_7
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 1473
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21442cf3e63091bb0800000000000000
+      internalID: -4964933342148279278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_8
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 1415
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac465229a0997d10800000000000000
+      internalID: 2123887755381853356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_9
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 1409
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061658762f631aa00800000000000000
+      internalID: 765953826376474976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_10
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 1410
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010d69b8ed3d29430800000000000000
+      internalID: 3788323189350125584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_11
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 1285
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2acdc006eaa3d40800000000000000
+      internalID: 5564952017125548724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_12
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 1285
+        width: 106
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301721f9040857ce0800000000000000
+      internalID: -1408078293448363773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_13
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 1035
+        width: 164
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b6e7c7615feb6a0800000000000000
+      internalID: -6431433740911744244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_14
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1035
+        width: 166
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defb194a80cd11640800000000000000
+      internalID: 5049058586937901037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_15
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 1216
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b5535e90a4aaf90800000000000000
+      internalID: -6941654469277557960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_16
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 1219
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b816407f6b1e201f0800000000000000
+      internalID: -1080052784670940789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_17
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1251
+        width: 122
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306d51c927f395df0800000000000000
+      internalID: -191051747709037053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_18
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 1223
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0de63e1967634c10800000000000000
+      internalID: 2036585157677739276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_19
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 1222
+        width: 59
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2695bcf76654ed0800000000000000
+      internalID: -2430423724838002003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_20
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 1163
+        width: 122
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc5b31925f0eca90800000000000000
+      internalID: -7291873899367932729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_21
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 1163
+        width: 121
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c3e1f0fed5fa4d0800000000000000
+      internalID: -3121172735412257735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_22
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1026
+        width: 58
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d3819a548213f30800000000000000
+      internalID: 4553464977903074593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_23
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 1024
+        width: 50
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2583a58620995b0800000000000000
+      internalID: -5361251234194369881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_24
+      rect:
+        serializedVersion: 2
+        x: 2987
+        y: 1024
+        width: 50
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef420e91e708d8720800000000000000
+      internalID: 2850075418283746558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_25
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 1024
+        width: 50
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d5c47243ef59fa0800000000000000
+      internalID: -5794445845591204607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_26
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 776
+        width: 244
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddd20d66875753c0800000000000000
+      internalID: -4370928678473638441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_27
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 776
+        width: 244
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b247fe5b7dbd53540800000000000000
+      internalID: 4987133881899512875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_28
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 854
+        width: 225
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0903092094f419330800000000000000
+      internalID: 3715838342551580816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Down Dungeon Platformer_29
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 275
+        width: 408
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92697a400b40dab0800000000000000
+      internalID: -4985402322877586785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Top-Down Dungeon Platformer_0: -641545939413144165
+      Top-Down Dungeon Platformer_1: -9185685831076853913
+      Top-Down Dungeon Platformer_10: 3788323189350125584
+      Top-Down Dungeon Platformer_11: 5564952017125548724
+      Top-Down Dungeon Platformer_12: -1408078293448363773
+      Top-Down Dungeon Platformer_13: -6431433740911744244
+      Top-Down Dungeon Platformer_14: 5049058586937901037
+      Top-Down Dungeon Platformer_15: -6941654469277557960
+      Top-Down Dungeon Platformer_16: -1080052784670940789
+      Top-Down Dungeon Platformer_17: -191051747709037053
+      Top-Down Dungeon Platformer_18: 2036585157677739276
+      Top-Down Dungeon Platformer_19: -2430423724838002003
+      Top-Down Dungeon Platformer_2: -5338420110819338936
+      Top-Down Dungeon Platformer_20: -7291873899367932729
+      Top-Down Dungeon Platformer_21: -3121172735412257735
+      Top-Down Dungeon Platformer_22: 4553464977903074593
+      Top-Down Dungeon Platformer_23: -5361251234194369881
+      Top-Down Dungeon Platformer_24: 2850075418283746558
+      Top-Down Dungeon Platformer_25: -5794445845591204607
+      Top-Down Dungeon Platformer_26: -4370928678473638441
+      Top-Down Dungeon Platformer_27: 4987133881899512875
+      Top-Down Dungeon Platformer_28: 3715838342551580816
+      Top-Down Dungeon Platformer_29: -4985402322877586785
+      Top-Down Dungeon Platformer_3: 258918450570235774
+      Top-Down Dungeon Platformer_4: 8533050100891933978
+      Top-Down Dungeon Platformer_5: 6855780889279755287
+      Top-Down Dungeon Platformer_6: -925960754048837393
+      Top-Down Dungeon Platformer_7: -4964933342148279278
+      Top-Down Dungeon Platformer_8: 2123887755381853356
+      Top-Down Dungeon Platformer_9: 765953826376474976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

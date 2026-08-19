@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 3b5516f3b105c564cb8707b2f47e19f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1970021062971392564
+    second: Firing in The Air_003_0
+  - first:
+      213: -4760261702893075528
+    second: Firing in The Air_003_1
+  - first:
+      213: 7851376647123247227
+    second: Firing in The Air_003_2
+  - first:
+      213: -2298837504525979670
+    second: Firing in The Air_003_3
+  - first:
+      213: 4352263237614916230
+    second: Firing in The Air_003_4
+  - first:
+      213: 3752429550499702382
+    second: Firing in The Air_003_5
+  - first:
+      213: -2286181570841342825
+    second: Firing in The Air_003_6
+  - first:
+      213: 1022789836173645828
+    second: Firing in The Air_003_7
+  - first:
+      213: -3968879536968951689
+    second: Firing in The Air_003_8
+  - first:
+      213: -3706623356363233141
+    second: Firing in The Air_003_9
+  - first:
+      213: 4960638766856827356
+    second: Firing in The Air_003_10
+  - first:
+      213: -6587110558096227166
+    second: Firing in The Air_003_11
+  - first:
+      213: -771205417638360888
+    second: Firing in The Air_003_12
+  - first:
+      213: 4835786078378269801
+    second: Firing in The Air_003_13
+  - first:
+      213: -3201238893760717773
+    second: Firing in The Air_003_14
+  - first:
+      213: 6998630683706534559
+    second: Firing in The Air_003_15
+  - first:
+      213: 5899562714713181379
+    second: Firing in The Air_003_16
+  - first:
+      213: 232201656181784144
+    second: Firing in The Air_003_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Firing in The Air_003_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 57
+        width: 481
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd7d85e74419a4e0800000000000000
+      internalID: -1970021062971392564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_1
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 369
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b38921c33720fdb0800000000000000
+      internalID: -4760261702893075528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_2
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 388
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7024915671b5fc60800000000000000
+      internalID: 7851376647123247227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 366
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef226a2873e810e0800000000000000
+      internalID: -2298837504525979670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_4
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 359
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6825707fa58566c30800000000000000
+      internalID: 4352263237614916230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_5
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 376
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66a6328bce431430800000000000000
+      internalID: 3752429550499702382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_6
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 322
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c05f959f9d540e0800000000000000
+      internalID: -2286181570841342825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_7
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 333
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4089201efeda13e00800000000000000
+      internalID: 1022789836173645828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_8
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 304
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77816a2d615bbe8c0800000000000000
+      internalID: -3968879536968951689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_9
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 303
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88adc722bd6f8cc0800000000000000
+      internalID: -3706623356363233141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 290
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd178850daab7d440800000000000000
+      internalID: 4960638766856827356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_11
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 305
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a40370f8d1e594a0800000000000000
+      internalID: -6587110558096227166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_12
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 275
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c80fc832c02c45f0800000000000000
+      internalID: -771205417638360888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_13
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 265
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c148331d92c1340800000000000000
+      internalID: 4835786078378269801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_14
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 248
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c5a30ef2ae293d0800000000000000
+      internalID: -3201238893760717773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_15
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 226
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a2a78c681202160800000000000000
+      internalID: 6998630683706534559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_16
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 240
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc4e9428057fd150800000000000000
+      internalID: 5899562714713181379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firing in The Air_003_17
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 213
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ef8f01d22f83300800000000000000
+      internalID: 232201656181784144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Firing in The Air_003_0: -1970021062971392564
+      Firing in The Air_003_1: -4760261702893075528
+      Firing in The Air_003_10: 4960638766856827356
+      Firing in The Air_003_11: -6587110558096227166
+      Firing in The Air_003_12: -771205417638360888
+      Firing in The Air_003_13: 4835786078378269801
+      Firing in The Air_003_14: -3201238893760717773
+      Firing in The Air_003_15: 6998630683706534559
+      Firing in The Air_003_16: 5899562714713181379
+      Firing in The Air_003_17: 232201656181784144
+      Firing in The Air_003_2: 7851376647123247227
+      Firing in The Air_003_3: -2298837504525979670
+      Firing in The Air_003_4: 4352263237614916230
+      Firing in The Air_003_5: 3752429550499702382
+      Firing in The Air_003_6: -2286181570841342825
+      Firing in The Air_003_7: 1022789836173645828
+      Firing in The Air_003_8: -3968879536968951689
+      Firing in The Air_003_9: -3706623356363233141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
