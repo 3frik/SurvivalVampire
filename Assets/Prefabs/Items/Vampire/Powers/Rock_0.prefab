@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7557987930790264848}
   - component: {fileID: 6569535604259195118}
-  - component: {fileID: 3424844707922113228}
   - component: {fileID: 8790317182156739104}
   - component: {fileID: -4254612485383911424}
   - component: {fileID: 746970053608503826}
   - component: {fileID: 6242349455526937741}
   - component: {fileID: 3792793682918550322}
+  - component: {fileID: 5715289031277322066}
   m_Layer: 0
   m_Name: Rock_0
   m_TagString: Throwable
@@ -85,34 +85,18 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3452003437791708593, guid: 1185e25c87172f2479cdea111ecbdb81, type: 3}
+  m_Sprite: {fileID: -1229858627709956937, guid: 2ba6fed83aa6ddb4f814318509e614ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.04, y: 1.02}
+  m_Size: {x: 1.7, y: 0.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &3424844707922113228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 26897568933195663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1c8fbbfeb8944a4fa35a88fe6f65dcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Throwable
-  speed: 5
-  isAimable: 1
-  reloadTime: 0.1
-  damage: 20
 --- !u!50 &8790317182156739104
 Rigidbody2D:
   serializedVersion: 5
@@ -139,7 +123,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &-4254612485383911424
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -178,8 +162,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.04, y: 1.02}
-    newSize: {x: 1.04, y: 1.02}
+    oldSize: {x: 3.4, y: 1.5}
+    newSize: {x: 1.7, y: 0.75}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -223,4 +207,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5cf313647155d44e8b7230164563e02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageEnemies
-  damage: 20
+  damage: 10
+  reloadTime: 0.5
+--- !u!114 &5715289031277322066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26897568933195663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1f6e620453779438a1f634514a80c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoveAimtoPlayer
+  objective: 1
+  moveSpeed: 5

@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Throwable : MonoBehaviour
 {
-
+    /*
     public float speed = 2f;
     internal Vector2 throwDirection;
     public bool isAimable = false;
@@ -27,5 +27,5 @@ public class Throwable : MonoBehaviour
     void FixedUpdate()
     {
         transform.position += new Vector3(throwDirection.x, throwDirection.y, 0) * speed * Time.deltaTime;
-    }
+    }*/
 }

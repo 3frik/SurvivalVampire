@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CollectRock : MonoBehaviour, ICollectible
 {
+    /*
     public GameObject throwable;
     private CharacterController Vampire;
 
@@ -16,12 +17,14 @@ public class CollectRock : MonoBehaviour, ICollectible
             Collect();
         }
     }
-
+    */
     public void Collect()
     {
+        /*
         Vampire.throwPreFab = throwable;
         Vampire.throwCooldown = throwable.GetComponent<Throwable>().reloadTime;
         Destroy(gameObject);
-
+        */
     }
+    
 }

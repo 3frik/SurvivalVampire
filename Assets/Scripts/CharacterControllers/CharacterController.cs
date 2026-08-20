@@ -17,8 +17,8 @@ public class CharacterController : MonoBehaviour
 
     private Animator animator;
 
-    public GameObject throwPreFab;
-    internal float throwCooldown = 0.5f;
+    public GameObject FireballPrefab;
+    public float throwCooldown = 0.5f;
     private float throwCooldownTimer = 0f;
 
     //Leveling
@@ -75,7 +75,6 @@ public class CharacterController : MonoBehaviour
         moveAction.Enable();
         throwAction.Enable();
         animator = GetComponent<Animator>();
-        throwCooldown = throwPreFab.GetComponent<Throwable>().reloadTime;
         Instantiate(spawnerPrefab, transform.position, Quaternion.identity);
 
         Spawner.instance.RiseTheStakes();
@@ -83,7 +82,7 @@ public class CharacterController : MonoBehaviour
 
         //GET POWERS!
         powers = new List<Power>();
-        powers.Add(new Power("Rock", "Throw rocks at your enemies", "Increase the damage of your rocks", PowerRock,0));
+        powers.Add(new Power("Fireball", "Throw fireballs at your enemies", "Increase the damage of your fireballs", PowerFireball,0));
         powers.Add(new Power("Shout", "Shout away your enemies", "Increase Damage and range of your shouts", PowerShout,0));
         powers.Add(new Power("Skull", "Summon a damned skull to protect you", "Increase the damage and speed of the skull", PowerSkull,0));
         powers.Add(new Power("Shield", "Invoke a protective shield", "Increase the ammount of damage the shield can absorb", PowerShield,0));
@@ -92,9 +91,8 @@ public class CharacterController : MonoBehaviour
         powers.Add(new Power("Health", "You not dead, you?", "Increase you maximum health", PowerHealth,0));
 
         //Reset stats of powers to start values
-        throwPreFab.GetComponent<DamageEnemies>().damage = 10;
-        throwPreFab.GetComponent<Throwable>().speed = 5f;
-        throwPreFab.GetComponent<Throwable>().isAimable = true;
+        FireballPrefab.GetComponent<DamageEnemies>().damage = 10;
+        FireballPrefab.GetComponent<MoveAimtoPlayer>().moveSpeed= 5f;
         cloud.GetComponent<CloudController>().cloudPower = 10;
         cloud.GetComponent<CloudController>().expirationTime = 2f;
         skull.GetComponent<DamageEnemies>().damage = 10;
@@ -109,17 +107,19 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame, so I put here all that has to be refreshed by frame, that means, UI.
     void Update()
     {
-        //Attacking
-        if (throwAction.IsPressed() && throwCooldownTimer <= 0)
-        {
-            GameObject throwObject = Instantiate(throwPreFab, transform.position, Quaternion.identity);
-            throwObject.GetComponent<Throwable>().throwDirection = direction;
-            throwCooldownTimer = throwCooldown;
-        }
-
+        //Reload Shot
         if (throwCooldownTimer > 0)
         {
             throwCooldownTimer -= Time.deltaTime;
+        }
+
+        //Attacking
+        if (throwAction.IsPressed() && throwCooldownTimer <= 0)
+        {
+            Debug.Log("I cast FIREBALL!!!!!");
+            GameObject throwObject = Instantiate(FireballPrefab, transform.position, Quaternion.identity);
+            //throwObject.GetComponent<MoveAimtoPlayer>().objective = MoveAimtoPlayer.objectiveType.Cursor;
+            throwCooldownTimer = throwCooldown;
         }
 
         //show Health
@@ -208,10 +208,11 @@ public class CharacterController : MonoBehaviour
     }
 
     //Methods for powers
-    private void PowerRock()
+    private void PowerFireball()
     {
-        Debug.Log("Rock powering up from " + powers[0].level);
-        throwPreFab.GetComponent<DamageEnemies>().damage *= 2;
+        Debug.Log("Fireball powering up from " + powers[0].level);
+        FireballPrefab.GetComponent<DamageEnemies>().damage *= 2;
+        throwCooldown *= 0.8f;
     }
 
     private void PowerShout()

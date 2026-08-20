@@ -47535,6 +47535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_LevelUp
       objectReference: {fileID: 0}
+    - target: {fileID: 3224652686914542553, guid: 3f671acd21f57764cbded38fa5824394, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6201619579345353674, guid: 3f671acd21f57764cbded38fa5824394, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.37305
